@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: darkblue;
+}
+.schemes h1{
+    padding: 15px;
+    background-color: rgb(3, 3, 96);
+    color: white;
+    text-align: center;
+    
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(191, 206, 234);
+    margin: 40px;
+    padding: 30px;
+    padding-right: 5px;
+    
+}
+.image{
+    background-color: white;
+    margin: 10px;
+    border: 1px solid ;
+    border-color: black; 
+}
+.images button{
+    margin: 10px;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: darkgrey;
+}
+.image img{
+    width: 200px;
+    
+}
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(3, 3, 96) ;
+    color: white;
+    width: 100%;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.icon div{
+    display: flex;
+}
+.icon i,p{
+    padding: 5px;
+}
+.img{
+    display: flex;
+}

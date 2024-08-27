@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elysium</title>
+    <link rel="icon" href="logos.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="login.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="nav">
+        <img src="logos.jpg" width="100px" height="100px">
+        <h1>Elysium Skill Training Private Limited</h1>
+        <div class="contact">
+            <p><i class="fa-solid fa-phone"></i> +91 82200-56477</p>         
+            <p><i class="fa-solid fa-envelope"></i> info@elysianskillindia.com</p>
+        </div>
+    </div>
+    <center>
+        <div class="register">
+            <h3>Enter Login Credentials</h3>
+            <div class="login">
+                <label>UserID :</label>
+                <input type="text" placeholder="Enter your User ID" id="user">
+                <label>Password :</label>
+                <input type="password" placeholder="Enter Password" id="password">
+                <button type="submit" onclick="check()"><b>Login</b></button>
+            </div>
+            
+            <div class="box">
+                <p><input type="checkbox"> Remember me</p>
+                <a href="forgot.html">Forgot Password ?</a>
+            </div>
+            <div class="create">
+                <h4>New User ?</h4>
+                <button onclick="newacc()"><b>Create Account</b></button>
+            
+            <div class="line">
+                
+                    <hr>
+                
+                <p>or</p>
+                
+                    <hr>
+                
+            </div>
+            <button><b>Login with Google Account</b></button>
+        </div>
+        </div>
+    </center>
+</body>
+</html>

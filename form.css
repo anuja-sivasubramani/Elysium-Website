@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(regback.jpg);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:aliceblue;
+    padding: 10px;
+}
+
+.nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: darkblue;
+}
+
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 30px;
+    width: 50%;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: 2px solid;
+}
+form label,input,select{
+padding: 10px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.buttons input{
+    margin-top: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 30%;
+}
+
+h1{
+    margin: 30px;
+}
+.gender{
+    margin:10px 20px;
+}
+.error-message {
+    color:brown;
+    font-size: 14px;
+    margin: 5px;
+    width: 100%;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elysium - Registration</title>
+    <link rel="icon" href="logos.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="form.css">
+    <script src="script.js" defer></script>
+    <script src="form.js" defer></script>
+</head>
+<body>
+    <div class="nav">
+        <img src="logos.jpg" width="80px" height="80px">
+        <div>
+            <a href="Home.html">Home</a>
+            <a href="details.html">Student Details</a>
+            <a href="pending.html">Pending List</a>
+            <a href="index.html">Logout</a>
+        </div>
+    </div>
+    <center>
+        <div class="forms">
+            <h1>REGISTRATION FORM</h1>
+            <form id="registrationForm" onsubmit="return validateForm()">
+                <label style="display: flex">NAME:<p style="color: red;">*</p></label>
+                <input type="text" id="name" name="name" placeholder="Enter Your Name" >
+                <span id="name-error" class="error-message"></span>
+
+
+                <label style="display: flex">D.O.B:<p style="color: red;">*</p></label>
+                <input type="date" id="dob" name="dob" >
+                <span id="dob-error" class="error-message"></span>
+
+                <label style="display: flex">GENDER:<p style="color: red;">*</p></label>
+                <div class="gender">
+                    <input type="radio" name="gender" value="Male" > Male 
+                    <input type="radio" name="gender" value="Female" > Female
+                </div>
+                <span id="gender-error" class="error-message"></span>    
+
+                <label style="display: flex">FATHER NAME:<p style="color: red;">*</p></label>
+                <input type="text" id="fatherName" name="fatherName" placeholder="Enter Your Father Name">
+                <span id="fatherName-error" class="error-message"></span>
+
+                <label style="display: flex">MOTHER NAME:<p style="color: red;">*</p></label>
+                <input type="text" id="motherName" name="motherName" placeholder="Enter Your Mother Name">
+                <span id="motherName-error" class="error-message"></span>
+
+                <label style="display: flex">E-MAIL:<p style="color: red;">*</p></label>
+                <input type="email" id="email" name="email" placeholder="Enter Your Mail">
+                <span id="email-error" class="error-message"></span>        
+
+                <label style="display: flex">PHONE NUMBER:<p style="color: red;">*</p></label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter Your Phone no">
+                <span id="phoneNumber-error" class="error-message"></span>
+
+                <label style="display: flex">PARENT'S MOBILE NUMBER:<p style="color: red;">*</p></label>
+                <input type="tel" id="parentPhoneNumber" name="parentPhoneNumber" placeholder="Enter Parent's Phone no">
+                <span id="parentPhoneNumber-error" class="error-message"></span>
+
+                <label style="display: flex">HIGHEST QUALIFICATION:<p style="color: red;">*</p></label>
+                <input type="text" id="qualification" name="qualification" placeholder="Enter Your Qualification">
+                <span id="qualification-error" class="error-message"></span>
+
+                <label style="display: flex">CATEGORY:<p style="color: red;">*</p></label>
+                <input type="text" id="category" name="category" placeholder="Enter Your Category">
+                <span id="category-error" class="error-message"></span>
+
+                <label style="display: flex">WALK-IN:<p style="color: red;">*</p></label>
+                <select id="walkIn" name="walkIn">
+                    <option value="Referral">Referral</option>
+                    <option value="Social Media">Social Media</option>
+                </select>
+                <span id="walkIn-error" class="error-message"></span>
+                
+                <div class="buttons">
+                    <input type="submit">
+                    <input type="reset">
+                </div>
+            </form>
+        </div>
+    </center>
+</body>
+</html>

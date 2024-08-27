@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(blue.webp);
+    background-repeat: no-repeat;
+    background-size: 250% 100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:aliceblue;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 99%;
+}
+
+.nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: darkblue;
+}
+.list{
+    align-items: center;
+}
+.list h1{
+        padding: 15px;
+        background-color: rgb(3, 3, 96);
+        color: white;
+        text-align: center;
+}
+
+.search{
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 80%;
+    position: fixed;
+    top: 100px;
+    left: 50px;
+}
+
+.search input{
+    border: none;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.search input:focus{
+    outline: none;
+}
+
+.foot{
+    display: flex;
+    position:fixed;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(3, 3, 96) ;
+    color: white;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.icon div{
+    display: flex;
+}
+.icon i,p{
+    padding: 5px;
+}
+table{
+    width: 150%;
+    overflow: auto; 
+    height:200px; 
+    margin-top: 200px;
+}
+th{
+    position: sticky;
+    top: 200px;
+    z-index: 1;
+    background-color:darkgrey;
+    padding:10px;
+    width: "8%";
+}
+
+td{
+    background-color: white;
+    position: sticky;
+    top: 200px;
+    width: "8%";
+    padding:10px;
+}
+
+.tableFixHead{
+    overflow: auto;
+    height: 639px;
+}

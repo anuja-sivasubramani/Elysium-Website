@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(background.jpg);
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(76, 75, 82, 0.288) 5px 10px 10px;
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+}
+.contact p{
+    padding: 10px;
+}
+.register{
+    width: 400px;
+    background-color:rgb(79, 79, 131);
+    color: white;
+    margin-top: 40px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.login
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.login label{
+    text-align: left;
+    padding-bottom: 10px;
+}
+.login input{
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+.login button{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.box div{
+    display: flex;
+}
+.line{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+.line hr{
+    align-items: center;
+    width: 45%;
+}
+.create button{
+   
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+    width:95%;
+}
+button{
+    cursor: pointer;
+}
+.box a{
+color: white;
+}

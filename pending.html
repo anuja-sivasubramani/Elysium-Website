@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elysium - Pending List</title>
+    <link rel="icon" href="logos.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="Pending.css">
+    <script src="pending.js" defer></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="nav">
+        <img src="logos.jpg" width="80px" height="80px">
+        <div>
+            <a href="Home.html">Home</a>
+            <a href="details.html">Student Details</a>
+            <a href="pending.html">Pending List</a>
+            <a href="index.html">Logout</a>
+        </div>
+    </div>
+    <center>
+        <form class="search">
+            <input type="text" id="myInput" placeholder="Search" onkeyup="myFunction()">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="tableFixHead">
+            <table id="myTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>D.O.B</th>
+                        <th>Gender</th>
+                        <th>Father's Name</th>
+                        <th>Mother's Name</th>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                        <th>Parent's Mobile Number</th>
+                        <th>Highest Qualification</th>
+                        <th>Category</th>
+                        <th>Walk-In</th>
+                        <th>Action</th> 
+                    </tr>
+                </thead>
+                <tbody id="tableBodys">
+                    
+                </tbody>
+            </table>
+        </div>
+    </center>
+</body>
+</html>

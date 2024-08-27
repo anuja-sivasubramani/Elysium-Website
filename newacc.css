@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(createback.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+    display: flex;
+    justify-content: right;
+}
+.acc{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 70px;    
+    width: 400px;
+    height: fit-content;
+    background-color:rgb(239, 202, 134);
+    border-radius: 20px;
+    border: 2px solid;
+}
+.acc input,button,h2,p{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 0;
+}
+.acc button{
+    cursor: pointer;
+}
+.error-message {
+    color:brown;
+    font-size: 14px;
+    margin: 5px;
+    width: 100%;
+}

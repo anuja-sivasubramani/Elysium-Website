@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(bb1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+      
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:aliceblue;
+    padding: 10px;
+}
+
+.nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: darkblue;
+}
+
+.formss{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+.formss h1{
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 30px;
+    width: 50%;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: 2px solid;
+}
+form label,input,select,button{
+padding: 10px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+button{
+    margin-top: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 30%;
+}
+h1{
+    margin: 30px;
+}
+.gender{
+    margin:10px 20px;
+}
+h2{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+label{
+    display: flex;
+}
+
+.error-message {
+    color:brown;
+    font-size: 14px;
+    margin: 5px;
+    width: 100%;
+}

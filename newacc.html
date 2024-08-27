@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elysium</title>
+    <link rel="icon" href="logos.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="newacc.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+        <div class="acc">
+            <h2>Create Account</h2>
+            <p>Already Have an Account ?<a href="index.html">Sign in</a></p>
+            <input type="text" placeholder="Username" id="newuser">
+            <span id="newuser-error" class="error-message"></span>        
+
+            <input type="password" placeholder="Password" id="newpassword">
+            <span id="newpassword-error" class="error-message"></span>        
+
+            <input type="text" placeholder="First Name" id="fName">
+            <span id="fname-error" class="error-message"></span>
+
+            <input type="text" placeholder="Last Name" id="lName">
+            <span id="lname-error" class="error-message"></span>
+
+            <input type="email" placeholder="email" id="mail">
+            <span id="mail-error" class="error-message"></span>  
+
+            <button type="submit" onclick="newAcc()">Sign Up</button>
+        </div>
+
+    
+</body>
+</html>

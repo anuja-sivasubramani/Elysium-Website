@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elysium - Registration Form</title>
+    <link rel="icon" href="logos.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="upload.css">
+    <script src="upload.js" defer></script>
+</head>
+<body>
+    <div class="nav">
+        <img src="logos.jpg" width="80px" height="80px">
+        <div>
+            <a href="Home.html">Home</a>
+            <a href="details.html">Student Details</a>
+            <a href="pending.html">Pending List</a>
+            <a href="login.html">Logout</a>
+        </div>
+    </div>
+    <center>
+    <div class="formss">
+        <h1>REGISTRATION FORM</h1>
+        <form id="Form">
+            <label style="display: flex">NAME:<p style="color: red;">*</p></label>
+                <input type="text" id="names" name="name" placeholder="Enter Your Name"  >
+                <span id="names-error" class="error-message"></span>
+
+                <label style="display: flex">D.O.B:<p style="color: red;">*</p></label>
+                <input type="date" id="dobs" name="dob"  >
+                <span id="dobs-error" class="error-message"></span>
+
+                <label style="display: flex">GENDER:<p style="color: red;">*</p></label>
+                <div class="genders">
+                    <input type="radio" name="genders" value="Male"  > Male 
+                    <input type="radio" name="genders" value="Female"  > Female
+                </div>
+                <span id="genders-error" class="error-message"></span>    
+
+                <label style="display: flex">FATHER NAME:<p style="color: red;">*</p></label>
+                <input type="text" id="fatherNames" name="fatherName" placeholder="Enter Your Father Name"  >
+                <span id="fatherNames-error" class="error-message"></span>
+
+                <label style="display: flex">MOTHER NAME:<p style="color: red;">*</p></label>
+                <input type="text" id="motherNames" name="motherName" placeholder="Enter Your Mother Name"  >
+                <span id="motherNames-error" class="error-message"></span>
+
+                <label style="display: flex">E-MAIL:<p style="color: red;">*</p></label>
+                <input type="email" id="emails" name="email" placeholder="Enter Your Mail"  >
+                <span id="emails-error" class="error-message"></span>        
+
+                <label style="display: flex">PHONE NUMBER:<p style="color: red;">*</p></label>
+                <input type="tel" id="phoneNumbers" name="phoneNumber" placeholder="Enter Your Phone no"  >
+                <span id="phoneNumbers-error" class="error-message"></span>
+
+                <label style="display: flex">PARENT'S MOBILE NUMBER:<p style="color: red;">*</p></label>
+                <input type="tel" id="parentPhoneNumbers" name="parentPhoneNumber" placeholder="Enter Parent's Phone no"  >
+                <span id="parentPhoneNumbers-error" class="error-message"></span>
+
+                <label style="display: flex">HIGHEST QUALIFICATION:<p style="color: red;">*</p></label>
+                <input type="text" id="qualifications" name="qualification" placeholder="Enter Your Qualification"  >
+                <span id="qualifications-error" class="error-message"></span>
+
+                <label style="display: flex">CATEGORY:<p style="color: red;">*</p></label>
+                <input type="text" id="categorys" name="category" placeholder="Enter Your Category"  >
+                <span id="categorys-error" class="error-message"></span>
+
+                <label style="display: flex">WALK-IN:<p style="color: red;">*</p></label>
+                <select id="walkIns" name="walkIn"  >
+                    <option value="">Select Walk-In</option>
+                    <option value="Referral">Referral</option>
+                    <option value="Social Media">Social Media</option>
+                </select>
+                <span id="walkIns-error" class="error-message"></span>
+
+            <h2>DOCUMENT UPLOAD</h2>
+            <table>
+                <tr>
+                    <td><label>Photo<p style="color: red;">*</p></label></td>
+                    <td><input type="file" name="photo" accept="image/jpeg, image/png"  ></td>
+                    <td><span id="photo-error" class="error-message"></span></td> 
+                </tr>
+                <tr>
+                    <td><label>Aadhar Card<p style="color: red;">*</p></label></td>
+                    <td><input type="file" name="aadharCard" accept="application/pdf"  ></td>
+                    <td><span id="aadharCard-error" class="error-message"></span></td>
+                </tr>
+                <tr>
+                    <td><label>Community Certificate<p style="color: red;">*</p></label></td>
+                    <td><input type="file" name="communityCertificate" accept="application/pdf"  ></td>
+                    <td><span id="communityCertificate-error" class="error-message"></span></td> 
+                </tr>
+                <tr>
+                    <td><label>Smart Card<p style="color: red;">*</p></label></td>
+                    <td><input type="file" name="smartCard" accept="application/pdf"  ></td>
+                    <td><span id="smartCard-error" class="error-message"></span></td>
+                <tr>
+                    <td><label>Income Certificate<p style="color: red;">*</p></label></td>
+                    <td><input type="file" name="incomeCertificate" accept="application/pdf"  ></td>
+                    <td><span id="incomeCertificate-error" class="error-message"></span></td> 
+                </tr>
+                <tr>
+                    <td><label>10th-Marksheet<p style="color: red;">*</p></label></td>
+                    <td><input type="file" name="tenmarksheets" accept="application/pdf"  ></td>
+                    <td><span id="tenmarksheets-error" class="error-message"></span></td> 
+                </tr>
+                <tr>
+                    <td><label>12th-Marksheet<p style="color: red;">*</p></label></td>
+                    <td><input type="file" name="twelvemarksheets" accept="application/pdf"  ></td>
+                    <td><span id="twelvemarksheets-error" class="error-message"></span></td>
+                </tr>
+                <tr>
+                    <td><label>UG-Marksheet<p style="color: red;">*</p></label></td>
+                    <td><input type="file" name="ugmarksheets" accept="application/pdf"></td>
+                    <td><span id="ugmarksheets-error" class="error-message"></span></td> 
+                </tr>
+                <tr>
+                    <td><label>Transfer Certificate<p style="color: red;">*</p></label></td>
+                    <td><input type="file" name="transferCertificate" accept="application/pdf"></td>
+                    <td><span id="transferCertificate-error" class="error-message"></span></td> 
+                </tr>
+                <tr>
+                    <td><label>Bank Passbook<p style="color: red;">*</p></label></td>
+                    <td><input type="file" name="bankPassbook" accept="application/pdf"></td>
+                    <td><span id="bankPassbook-error" class="error-message"></span></td>
+                </tr>
+            </table>
+
+            <div class="button">
+                <button type="submit">Submit</button>
+                <button type="button" onclick="cancel()">Cancel</button>
+            </div>
+        </form>
+    </div>
+    </center>
+</body>
+</html>
